@@ -150,6 +150,9 @@ class CMakeBuild(build_ext):
         if not build_temp.exists():
             build_temp.mkdir(parents=True)
 
+        if "WHISPER_OPENVINO" not in os.environ:
+            os.environ["WHISPER_OPENVINO"] = "1"
+
         for key, value in os.environ.items():
             cmake_args.append(f'-D{key}={value}')
 
