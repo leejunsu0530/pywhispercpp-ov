@@ -14,6 +14,8 @@ Python bindings for [whisper.cpp](https://github.com/ggerganov/whisper.cpp) with
     * [NVIDIA GPU support](#nvidia-gpu-support)
     * [CoreML support](#coreml-support)
     * [Vulkan support](#vulkan-support)
+    * [OpenBLAS support](#openblas-support)
+    * [OpenVINO support](#openvino-support)
 * [Quick start](#quick-start)
 * [Examples](#examples)
   * [CLI](#cli)
